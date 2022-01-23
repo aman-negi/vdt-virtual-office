@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import HomePage from './component/main/HomePage.js'
 import {Route, BrowserRouter as Router} from "react-router-dom";
-import HeaderBar from "./component/HeaderBar";
-import Signup from './component/Work/SignUp';
-import Login from './component/Work/Login';
+
 import {AuthProvider} from './component/Work/Auth'
 import PrivateRoute from './component/PrivateRoute';
+
+import HomePage from './component/main/HomePage.js'
+import HeaderBar from "./component/HeaderBar";
+
+import Signup from './component/Work/SignUp';
+import Login from './component/Work/Login';
 import Dashboard from './component/Work/Dashboard';
 import AddDepart from './component/Work/admin-add/AddDepart.js';
 import Departments from './component/Work/Departments.js';
@@ -22,7 +25,7 @@ import RankChanging from './component/Work/admin-add/RankChanging.js';
 import AddEmployeeToDept from './component/Work/admin-add/AddEmployeeToDept.js';
 
 
-
+//  Router for the website
 class App extends Component {
   render (){
     return (
