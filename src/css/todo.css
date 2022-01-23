@@ -1,0 +1,64 @@
+.body-content{
+    display:flex;
+    flex-wrap : wrap;
+    padding:3.6% 0 0 1.9%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.List-Area{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 240);
+    padding: 1% 1% 1% 1%;
+    width: 90%;
+    margin: 1%;   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex:1;
+}
+
+.todo-enter{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.todo-childs{
+    flex: 0 1 40%;
+    margin: 35px 0px 20px 5px ;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.todo-form-button{
+    padding:5%;
+    border-radius: 15px;
+    font-size: x-large;
+    color:white;
+    text-align: center;
+    background-color: rgb(92, 92, 236)
+}
+
+.todo-list{
+    background-color:rgb(238, 238, 176);
+    border-radius: 15px;
+    font-size: large;
+    min-height: 500px;
+}
+
+
+
+
+.list-items{
+    margin: 35px 0px 20px 5px ;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 8;
+    justify-content: space-evenly;
+}

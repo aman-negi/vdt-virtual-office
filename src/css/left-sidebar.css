@@ -1,0 +1,20 @@
+#leftbar {
+    height: 100%;
+    width: 3.842875rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2b2e30;
+    padding-top: 80px;
+  }
+  
+  #leftbar .name {
+    padding: 40px 10px 40px 8px;
+    font-size: 15px;
+    color: white;
+    display: block;
+  }
+  
+  #leftbar .name:hover {
+    color: #b4b0b0;
+  }

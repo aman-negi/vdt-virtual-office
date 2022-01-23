@@ -1,0 +1,234 @@
+
+
+#showcase{
+    min-height: 450px;
+    color :black;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#showcase .bg-img{
+    position: absolute;
+    background: url("../images/first.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:450px;
+    z-index:-1;
+    opacity:0.3;
+}
+#showcase .Heading{
+    display:inline-block;
+    border-bottom-width: 3px;
+    margin-top: 25px;
+    font-size:450%;
+    font-weight:600;
+    text-decoration: underline;
+}
+
+#showcase .button{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#showcase .buttons{
+    flex: 0 1 140px;
+    margin : 10px;
+    padding: 19px;
+    
+}
+
+#showcase .btn{
+    background-color: #4ea6fd;
+    font-size: 19px;
+}
+#showcase .btn:hover{
+    background-color: #007cf8;
+}
+
+/*         Features section            */
+
+#Features{
+    text-align: center;
+
+}
+
+#Features .heading{
+    display:inline-block;
+    border-bottom-width: 2px;
+    font-size:350%;
+    font-weight:400;
+    margin-top: 20px;
+
+}
+
+#Features .features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#Features .features-child{
+    flex: 0 1 300px;
+    margin : 40px;
+    background-color: rgba(224, 240, 255, 0.452);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#Features .features-heading{
+    font-size: larger;
+    font-weight: 700;
+    margin:10px;
+
+}
+
+
+
+/*  ///////////////Application Section/////////////////////////  */
+
+#Application{
+    display : flex;
+    flex : 2;
+    flex-direction: row;
+    background-color: rgba(230, 230, 230, 0.308);
+    padding : 40px;
+}
+
+#Application .heading{
+    flex:1;
+    flex-wrap: wrap;
+    align-self: center;
+    font-size :35px;
+    font-weight: 700;
+    text-align: center;   
+}
+
+#Application .applications{
+    flex :1;
+    font-size: 19px;
+}
+
+#Application ul.applications-list {
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+#Application li.applications-lists {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/*  //////////////////////// Q&A section ///////////////////  */
+
+#explanation{
+    padding:10px;
+}
+
+#explanation .heading{
+    font-size: 55px;
+    text-align:center;
+    text-decoration: underline;
+}
+
+#explanation .quesAns-child{
+    padding : 30px;
+}
+
+#explanation .question{
+    font-size:30px;
+    font-weight: 600;
+}
+
+#explanation .answer{
+    font-size: 20px;
+}
+
+/*  ////////////////////////responsive ////////////////////////////////////////////////// */
+@media screen and (max-width: 600px) {
+
+    #showcase{
+        min-height: 400px;
+        color :black;
+        text-align: center;
+        margin-top: 11%;
+        
+    }
+    
+    #showcase .bg-img{
+        position: absolute;
+        background: url("../images/first.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height:400px;
+        z-index:-1;
+        opacity:0.2;
+    }
+    #showcase .Heading{
+        display:inline-block;
+        border-bottom-width: 3px;
+        margin-top: 40px;
+        font-size:250%;
+        font-weight: bold;
+    }
+
+    #Features{
+        background-color: rgb(224, 240, 255);
+
+    }
+    
+    #Features .heading{
+        margin-top: 5px;
+    
+    }
+    
+
+    #Features .features-child{
+        flex: 0 1 300px;
+        margin : 10px;
+        padding: 20px;
+        background-color: white;
+
+    }
+    
+    /*  ///////////////Application Section/////////////////////////  */
+
+#Application{
+
+    flex-direction: column;
+    background-color: rgba(230, 230, 230, 0.308);
+    padding : 20px;
+}
+
+#Application .heading{
+
+    font-size :25px;
+    font-weight: 700;
+ 
+}
+
+#Application .applications{
+
+    font-size: 19px;
+}
+
+#Application ul.applications-list {
+    list-style-type: circle;
+    margin:0px
+  }
+
+  #Application li.applications-lists {
+    margin-top: 20px;
+    padding : 0px;
+  }  
+
+
+  }

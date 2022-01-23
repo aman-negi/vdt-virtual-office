@@ -1,0 +1,73 @@
+.Ranking-system {
+  padding: 4% 1% 2% 2%;
+  background-color: rgb(238, 237, 237);
+}
+
+.Ranking-system-head {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: rgb(238, 52, 52);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.Ranking-system-body {
+  padding: 2% 10% 2% 10%;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(238, 52, 52);
+  border-width: 1px;
+}
+
+.Ranking-system-body-head {
+  font-size: 25px;
+}
+.Ranking-system-body-body {
+  padding-right: 10%;
+  padding-bottom: 1%;
+}
+
+.rank-table {
+  border-style: double;
+  width: 80%;
+}
+
+.rank-table-row {
+  border-style: double;
+}
+
+.rank-table-row-content {
+  border-style: double;
+  padding: 2%;
+}
+.rank-table-head-content {
+  border-style: double;
+  padding: 1%;
+}
+
+.para-with-heading{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.para-with-heading-head{
+  flex: 3;
+  font-size: larger;
+}
+
+.para-with-heading-head{
+  flex: 7;
+}

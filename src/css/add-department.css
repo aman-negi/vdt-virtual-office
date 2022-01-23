@@ -1,0 +1,75 @@
+
+.body-content{
+    display:flex;
+    flex-wrap : wrap;
+    padding:3.6% 0 0 1.9%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Heading{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.875rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    
+}
+
+.form-departs{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 240);
+    padding: 1% 1% 1% 1%;
+    width: 90%;
+    margin: 1%;   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-child1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: small;
+}
+
+.form-childs{
+    flex: 0 1 40%;
+    margin: 2.0rem 0px 1.25rem .2rem ;
+    padding: 0px .6rem 0px .6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.labels{
+    font-size: larger;
+    font-weight: 400;
+}
+
+.inputss{
+    border-radius: .635rem;
+    min-width: 12.5rem;
+  }
+
+  .input-button-depart{
+    background-color: rgb(248, 244, 184);
+    border-radius: .635rem;
+    padding-left: .48rem;
+    padding-right: .48rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: large;
+    font-weight: 500;
+    color:black;
+  }
+
+@media screen and (max-width: 600px) {
+
+    .body-content{
+        margin-top: 13%;
+
+    }
+}
